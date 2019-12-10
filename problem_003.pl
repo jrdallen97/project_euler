@@ -23,4 +23,4 @@ sub factors {
 my @factors = factors(600851475143);
 @factors = sort {$a > $b} @factors;
 @factors = grep {scalar(factors($_)) == 2} @factors;
-say for @factors;
+say $factors[-1];
