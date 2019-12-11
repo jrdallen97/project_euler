@@ -4,8 +4,7 @@ use 5.028;
 sub isPalin {
     my $num = shift;
     while (length $num > 1) {
-        $num =~ /^(.)(.*)(.)$/;
-        return 0 unless $1 eq $3;
+        return 0 unless $num =~ /^(.)(.*)\1$/;
         $num = $2;
     }
     return 1;
