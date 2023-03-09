@@ -7,7 +7,7 @@ sub factors {
     my $biggestFactor = int(sqrt($num));
 
     my @factors = ();
-    
+
     for (my $i = 1; $i <= $biggestFactor; $i ++) {
         push @factors, $i if $num % $i == 0;
     }
