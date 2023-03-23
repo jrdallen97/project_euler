@@ -11,4 +11,3 @@ while curr < 4000000 do
   prev, curr = curr, prev + curr
 end
 print(sum)
-

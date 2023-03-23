@@ -1,0 +1,18 @@
+[package]
+name = "project_euler"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "p001"
+path = "p001/main.rs"
+[[bin]]
+name = "p002"
+path = "p002/main.rs"
+[[bin]]
+name = "p003"
+path = "p003/main.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
