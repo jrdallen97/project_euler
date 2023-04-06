@@ -12,6 +12,9 @@ path = "p002/main.rs"
 [[bin]]
 name = "p003"
 path = "p003/main.rs"
+[[bin]]
+name = "p004"
+path = "p004/main.rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
