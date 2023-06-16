@@ -21,6 +21,9 @@ path = "p005/main.rs"
 [[bin]]
 name = "p006"
 path = "p006/main.rs"
+[[bin]]
+name = "p007"
+path = "p007/main.rs"
 
 [dependencies]
 num = "0.4.0"
