@@ -3,6 +3,9 @@ name = "project_euler"
 version = "0.1.0"
 edition = "2021"
 
+[dependencies]
+num = "0.4.0"
+
 [[bin]]
 name = "p001"
 path = "p001/main.rs"
@@ -24,6 +27,3 @@ path = "p006/main.rs"
 [[bin]]
 name = "p007"
 path = "p007/main.rs"
-
-[dependencies]
-num = "0.4.0"
