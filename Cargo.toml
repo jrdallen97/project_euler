@@ -30,3 +30,12 @@ path = "p007/main.rs"
 [[bin]]
 name = "p008"
 path = "p008/main.rs"
+[[bin]]
+name = "p009"
+path = "p009/main.rs"
+[[bin]]
+name = "p010"
+path = "p010/main.rs"
+[[bin]]
+name = "p011"
+path = "p011/main.rs"

@@ -1,19 +1,20 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
-# Helper for checking arg is a positive int
-is_uint() {
-  case $1 in '' | *[!0-9]* ) return 1;; esac
-}
+SCRIPTNAME=$0
+NUM=$1
 
-if ! is_uint "$1"; then
-  echo 'Helper for creating a new project directory and rust binary'
-  echo 'usage: ./new.sh {problem number}'
-  echo 'example: ./new.sh 1'
-  exit 1
-fi
+# Helper for checking arg is valid uint
+case "$NUM" in
+  '' | *[!0-9]* )
+    cat << EOF
+Helper for creating a new project directory and rust binary
+usage: $SCRIPTNAME {problem number}
+example: $SCRIPTNAME 1
+EOF
+    exit 1;;
+esac
 
-NUM="$1"
-PADDED=$(printf "%03d" "$1")
+PADDED=$(printf "%03d" "$NUM")
 PNUM="p$PADDED"
 
 # Create problem dir
