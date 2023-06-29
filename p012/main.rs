@@ -35,9 +35,9 @@ fn main() {
         tri += i;
         let f = factors(tri);
 
-        println!("{tri}: {f:?}");
+        // println!("{tri}: {f:?}");
 
-        if f.len() > 10 {
+        if f.len() > 500 {
             println!("{tri} has {} divisors", f.len());
             break;
         }
