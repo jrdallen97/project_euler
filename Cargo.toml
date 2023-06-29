@@ -51,3 +51,6 @@ path = "p014/main.rs"
 [[bin]]
 name = "p015"
 path = "p015/main.rs"
+[[bin]]
+name = "p016"
+path = "p016/main.rs"
