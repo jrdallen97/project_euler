@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+chrono = "0.4.26"
 num = "0.4.0"
 
 [[bin]]
@@ -63,3 +64,9 @@ path = "p018/main.rs"
 [[bin]]
 name = "p067"
 path = "p067/main.rs"
+[[bin]]
+name = "p019"
+path = "p019/main.rs"
+[[bin]]
+name = "p020"
+path = "p020/main.rs"
