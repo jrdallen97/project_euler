@@ -7,6 +7,10 @@ edition = "2021"
 chrono = "0.4.26"
 num = "0.4.0"
 
+[lib]
+name = "utils"
+path = "src/utils.rs"
+
 [[bin]]
 name = "p001"
 path = "p001/main.rs"
@@ -76,3 +80,6 @@ path = "p021/main.rs"
 [[bin]]
 name = "p022"
 path = "p022/main.rs"
+[[bin]]
+name = "p023"
+path = "p023/main.rs"

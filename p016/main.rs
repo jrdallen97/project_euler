@@ -8,5 +8,5 @@ fn main() {
     let two = 2.to_biguint().unwrap();
 
     let total: u32 = two.pow(1000).to_string().chars().map(|x| x.to_digit(10).unwrap()).sum();
-    print!("{total}");
+    println!("{total}");
 }
